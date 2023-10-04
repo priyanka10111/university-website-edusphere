@@ -8,12 +8,14 @@
 
 
     .header {
+       overflow: hidden;
         min-height: 100vh;
         width: 100%;
         background-image: linear-gradient(rgba(4,9,30,0.7), rgba(4,9,30,0.7)), url(./edusphere_img/banner.png); 
         background-position: center;
         background-size: cover;
         position: relative;
+        
     }
 
      nav{
@@ -186,6 +188,7 @@
    @media(max-width:700px ){
         .row{
          flex-direction: column;
+         
         }
 
    }
@@ -310,10 +313,10 @@
   }
 
 
-@media(max-width : 700px){
+@media(max-width : 900px){
    .testemonials-col img{
       margin-left: 0px;
-      margin-right: 15px;
+      margin-right:  15px;
        }
    }
 
